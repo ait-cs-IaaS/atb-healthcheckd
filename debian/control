@@ -1,0 +1,19 @@
+Source: healthcheckd
+Section: utils
+Priority: optional
+Maintainer: Roy Mandoline <roy@aecid-testbed.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://www.ait.ac.at
+#Vcs-Browser: https://salsa.debian.org/debian/healthcheckd
+#Vcs-Git: https://salsa.debian.org/debian/healthcheckd.git
+
+Package: healthcheckd
+Architecture: any
+Depends:
+ xinetd,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Basic Healthcheck for servers.

@@ -1,0 +1,5 @@
+healthcheckd (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Roy Mandoline <roy@aecid-testbed.com>  Wed, 22 Nov 2023 16:54:24 +0000

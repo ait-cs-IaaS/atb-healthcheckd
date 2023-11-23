@@ -1,0 +1,8 @@
+*.o
+*.log
+.venv
+venv
+healthcheckd
+core
+.gdb_history
+.swp
