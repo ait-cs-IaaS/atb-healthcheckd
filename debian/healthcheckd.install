@@ -1,1 +1,1 @@
-conf/healthcheck-xinetd.conf etc/xinetd.d
+conf/healthcheck etc/xinetd.d
